@@ -17,40 +17,40 @@ The initial question of the project on Kaggle was: "In which cities can Millenia
 
     TOP 10 regions by avocado sold are:
 
-![](files/avocado_sold_top_reg.jpg)
+![](images/avocado_sold_top_reg.jpg)
 
 
 2. From the next chart we can see that average price of avocado depends on the region. The dependance behavior is the same for both types of avocado and the cheapest avocado is in South-Central region (if we take into account only TOP10 regions by sold) and the most expensive is in New York.
 
-![](files/avg_price_top_reg.jpg)
+![](images/avg_price_top_reg.jpg)
 
 3. It seems like there is a mistake in data as it's not possible that in whole US all organic avocado prices has been dropping down to 1$ (less than price for conventional avocado in this period) and than rised instantly. Therefore I replaced data with mean value of average price of the nearest correct data.
 
-![](files/Total_volume_avg_price_trends.jpg)
+![](images/Total_volume_avg_price_trends.jpg)
 
 New chart of year 2015 looks like:
-![](files/avg_price_withoutgap_US_2015.jpg)
+![](images/avg_price_withoutgap_US_2015.jpg)
 
 4. There is almost equal quantity of small and large avocado sold.
-![](files/av_by_size.jpg)
+![](images/av_by_size.jpg)
 
 5. More than 98% of sold avocado - conventional type.
-![](files/av_by_type.jpg)
+![](images/av_by_type.jpg)
 
 6. We can't see seasonality of avocado consumption, but in 2015-2016 there was the same peak in May.
-![](files/avocado_sold_dictrib.jpg)
+![](images/avocado_sold_dictrib.jpg)
 
 7. Analysing price changing over the years, we can see that there was bigger diversity of price in 2017 comparing to other years.
-![](files/avg_price_years.jpg)
+![](images/avg_price_years.jpg)
 
 8. Analysing price trend on the months basis, we can observce that in september and october there is a much bigger price variety than in other months:
-![](files/avg_price_distrib.jpg)
+![](images/avg_price_distrib.jpg)
 
 8. We can observe almost normal distribution of average price for both types of avocado.
-![](files/price_distribution.jpg)
+![](images/price_distribution.jpg)
 
 9. On the following chart we see that average price of conventional and organic avocado intersects only at the outliers:
-![](files/price_outliners.jpg)
+![](images/price_outliners.jpg)
 
 The following statistical values are observed:
 
@@ -60,13 +60,10 @@ The following statistical values are observed:
 | organic     | $1.16  |$2.09   |$1.57 |$1.54  |
 
 10. On the following chart we can observe average price forecast for the next year.
-![](files/forecast_price.jpg)
+![](images/forecast_price.jpg)
 
 ## Examples of use
 Marketing projects
-
-## Project status 
-In progress
 
 ## Sources
 https://www.kaggle.com/neuromusic/avocado-prices
